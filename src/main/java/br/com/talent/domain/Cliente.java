@@ -1,6 +1,8 @@
 package br.com.talent.domain;
 
 import java.io.Serializable;
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -12,6 +14,7 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import br.com.talent.util.UtilTalent;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -46,5 +49,22 @@ public class Cliente implements Serializable {
     
     @Transient
     private int idade;
+    
+    
+    public int getIdade() {
+    	
+    	if (getDataNascimento() != null) {
+    		LocalDate bday = UtilTalent.dateToLocalDate(getDataNascimento());
+        	LocalDate today = LocalDate.now();
+        	
+            Period age = Period.between(bday, today);
+            int years = age.getYears();
+            
+            setIdade(years);
+    	}
+    	
+    	
+    	return this.idade;
+    }
 
 }
