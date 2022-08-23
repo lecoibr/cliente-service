@@ -40,4 +40,6 @@
 ### Para visualizar as APIs, acessar o Swagger: ###
 
 * `http://localhost/swagger-ui.html`
+ou
+* `http://52.22.90.248/swagger-ui.html`
 
