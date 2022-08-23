@@ -1,0 +1,10 @@
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (1, 'JOÃO DAS NEVES','2019-07-18','85656673114','QUADRA 210','M');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (2, 'MIRANDA DAS NEVES','2010-07-18','85656673113','QUADRA 210','M');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (3, 'PAULA AZEVEDO','2009-07-18','85656673113','LOTE 6','F');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (4, 'ERIC AZEVEDO','2008-07-18','85656673111','LOTE 10','M');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (5, 'THEO AZEVEDO','2007-07-18','85656673110','QUADRA 211','M');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (6, 'JOÃO MIRANDA','2006-07-18','45656673114','QUADRA 211','M');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (7, 'SERGIO MIRANDA','2005-07-18','55656673114','LOTE 210','M');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (8, 'AMANDA SOUZA','1979-07-18','65656673114','LOTE 210','F');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (9, 'FERNANDA MORAIS','1980-07-18','25656673114','RUA ZERO','F');
+insert into cliente (id,nome,data_nascimento,cpf,endereco,sexo) values (10, 'TIAGO SOUSA','1988-07-18','15656673114','RUA ZERO','M');
