@@ -45,3 +45,9 @@ ou
 
 * `http://52.22.90.248/swagger-ui.html`
 
+
+Feito por:
+
+Eric Azevedo
+info@ericazevedo.com
+
